@@ -434,14 +434,14 @@ h6 {
 -----------------------------------------------------*/
 .card{
   margin: 10px auto;
-  box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 2px 3px 5px 0 rgba(13, 13, 13, 0.853);
   border-radius: 17px;
   height: 100%;
   transition: 0.3s;
   background-color: #DC222A;
 }
 .card:hover {
-box-shadow: 1px 10px 16px 0 rgba(0,0,0,0.3);
+box-shadow: 1px 10px 16px 0 rgba(239, 17, 17, 0.889);
 }
 .card-title{
   text-align: center;
