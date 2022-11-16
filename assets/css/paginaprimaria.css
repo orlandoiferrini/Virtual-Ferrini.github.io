@@ -84,12 +84,12 @@
   }
   
   .cardH  .backH a {
-    padding: 0.3em 0.5em;
+    padding: auto;
     background: #333;
     color: #fff;
     text-decoration: none;
     border-radius: 1px;
-    font-size: 0.9em;
+    font-size: 0.7em;
     transition: all 0.2s ease 0s;
   }
   
