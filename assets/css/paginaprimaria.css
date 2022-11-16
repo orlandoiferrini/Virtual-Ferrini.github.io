@@ -1,7 +1,7 @@
  
 .bodyH {
     color: #333;
-    font-family: Arial, Helvetica, serif;
+    font-family: Arial;
     font-weight: normal;
     margin: 0;
     padding: 0;
@@ -52,7 +52,7 @@
   }
   
   .cardH  p {
-    margin-bottom: 1.8em;
+    margin-bottom: auto;
   }
   
   .cardH .frontH,
@@ -61,22 +61,22 @@
     box-sizing: border-box;
     color: white;
     display: block;
-    font-size: 1.2em;
+    font-size: 1.7em;
     height: 100%;
-    padding: 0.8em;
+    padding: auto;
     position: absolute;
     text-align: center;
     width: 100%;
-    font-family: "Handlee", cursive;
+    font-family: "Handlee", "cursive";
   }
   
   .cardH .frontH strong {
     background: #fff;
     border-radius: 100%;
     color: #222;
-    font-size: 1.5em;
+    font-size: 1.8em;
     line-height: 30px;
-    padding: 0 7px 4px 6px;
+    padding: 0 5px 3px 5px;
   }
   
   .cardH .backH {
