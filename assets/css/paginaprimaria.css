@@ -6,14 +6,12 @@
     margin: 0;
     padding: 0;
     background-color: white;
+    border-radius: 20px;
   }
   
   .h4H {
     font-family: monospace;
     font-size: small;
-
-
-
   }
   .h1H {
     background: #5E7F9D;
@@ -34,6 +32,7 @@
     perspective: 800px;
     transition: all 0.3s ease 0s;
     width: 18.7%;
+   
   }
   
   .cardBoxH:hover .cardH {
@@ -41,6 +40,7 @@
   }
   
   .cardH {
+    border-radius: 20px;
     background: #222;
     cursor: default;
     height: 300px;
@@ -58,6 +58,7 @@
   .cardH .frontH,
   .cardH .backH {
     backface-visibility: hidden;
+    border-radius: 20px;
     box-sizing: border-box;
     color: white;
     display: block;
@@ -100,23 +101,23 @@
   }
   
   .cardBoxH:nth-child(1) .cardH .backH {
-    background: #DC222A;
+    background: #5E7F9D;
   }
   
   .cardBoxH:nth-child(2) .cardH .backH {
-    background: #DC222A;
+    background: #5E7F9D;
   }
   
   .cardBoxH:nth-child(3) .cardH .backH {
-    background: #DC222A;
+    background: #5E7F9D;
   }
   
   .cardBoxH:nth-child(4) .cardH .backH {
-    background: #DC222A;
+    background: #5E7F9D;
   }
 
   .cardBoxH:nth-child(5) .cardH .backH {
-    background: #DC222A;
+    background: #5E7F9D;
   }
 
   
@@ -178,7 +179,7 @@
   }
   a {
     text-decoration: none;
-    
+       
   }
 
   #footer {

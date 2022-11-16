@@ -38,6 +38,7 @@
   
   .cardH2 {
     background: #222;
+    border-radius: 20px;
     cursor: default;
     height: 300px;
     transform-style: preserve-3d;
@@ -54,6 +55,7 @@
   .cardH2 .frontH2,
   .cardH2 .backH2 {
     backface-visibility: hidden;
+    border-radius: 20px;
     box-sizing: border-box;
     font-family: "Handlee", cursive;
     color: white;
@@ -97,43 +99,43 @@
   }
   
   .cardBoxH2:nth-child(1) .cardH2 .backH2 {
-    background: rgb(23, 55, 114);
+    background: #5E7F9D;
   }
   
   .cardBoxH2:nth-child(2) .cardH2 .backH2 {
-    background: rgb(23, 55, 114);
+    background: #5E7F9D;
   }
   
   .cardBoxH2:nth-child(3) .cardH2 .backH2 {
-    background: rgb(23, 55, 114);
+    background: #5E7F9D;
   }
   
   .cardBoxH2:nth-child(4) .cardH2 .backH2 {
-    background: rgb(23, 55, 114);
+    background: #5E7F9D;
   }
 
   .cardBoxH2:nth-child(5) .cardH2 .backH2 {
-    background: rgb(23, 55, 114);
+    background: #5E7F9D;
   }
 
   .cardBoxH2:nth-child(6) .cardH2 .backH2 {
-    background: rgb(23, 55, 114);
+    background: #5E7F9D;
   }
 
   .cardBoxH2:nth-child(7) .cardH2 .backH2 {
-    background: rgb(23, 55, 114);
+    background: #5E7F9D;
   }
 
   .cardBoxH2:nth-child(8) .cardH2 .backH2 {
-    background: rgb(23, 55, 114);
+    background: #5E7F9D;
   }
   
   .cardBoxH2:nth-child(9) .cardH2 .backH2 {
-    background: rgb(23, 55, 114);
+    background: #5E7F9D;
   }
 
   .cardBoxH2:nth-child(10) .cardH2 .backH2 {
-    background: rgb(23, 55, 114);
+    background: #5E7F9D;
   }
   .cardBoxH2:nth-child(2) .cardH2 {
     -webkit-animation: giro 1.5s 1;
