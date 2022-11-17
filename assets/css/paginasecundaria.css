@@ -82,12 +82,13 @@
   }
   
   .cardH2 .backH2 a {
-    padding: 0.3em 0.5em;
+    padding: auto;
     background: #333;
     color: #fff;
     text-decoration: none;
-    border-radius: 1px;
-    font-size: 0.9em;
+    border-radius: 2px;
+    border: rgb(246, 246, 247) solid 1px; 
+    font-size: 0.7em;
     transition: all 0.2s ease 0s;
   }
   
@@ -183,7 +184,7 @@
     }
   }
   
-  @media screen and (max-width: 1600px) {
+  @media screen and (max-width: 900px) {
     .cardBoxH2 {
       width: 94.5%;
     }
