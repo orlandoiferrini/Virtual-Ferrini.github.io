@@ -68,7 +68,7 @@
     position: absolute;
     text-align: center;
     width: 100%;
-    font-family: "Handlee", "cursive";
+    
   }
   
   .cardH .frontH strong {
@@ -158,8 +158,8 @@
   @media screen and (max-width: 767px) {
     .cardBoxH {
       margin-left: 2.8%;
-      margin-top: 3%;
-      width: 46%;
+      margin-top: 2%;
+      width: 60%;
     }
     .cardH {
       height: 285px;
