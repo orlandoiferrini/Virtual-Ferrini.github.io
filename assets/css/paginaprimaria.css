@@ -169,12 +169,12 @@
     }
   }
   
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1624px) {
     .cardBoxH {
       width: 94.5%;
     }
     .cardH {
-      height: 260px;
+      height: 285px;
     }
   }
   a {
