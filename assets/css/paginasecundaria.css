@@ -61,7 +61,7 @@
     display: block;
     font-size: 1.2em;
     height: 100%;
-    padding: 0.8em;
+    padding: 0.5em;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -74,7 +74,7 @@
     color: #222;
     font-size: 1.5em;
     line-height: 30px;
-    padding: 0 7px 4px 6px;
+    padding: 0 6px 3px 5px;
   }
   
   .cardH2 .backH2 {
@@ -172,8 +172,8 @@
   @media screen and (max-width: 767px) {
     .cardBoxH2 {
       margin-left: 2.8%;
-      margin-top: 3%;
-      width: 46%;
+      margin-top: 2%;
+      width: 60%;
     }
     .cardH2 {
       height: 285px;
