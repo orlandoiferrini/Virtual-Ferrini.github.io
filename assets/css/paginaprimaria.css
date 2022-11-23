@@ -29,7 +29,7 @@
     float: left;
     font-size: 1.2em;
     margin: 1% 0 0 1%;
-    perspective: 800px;
+    perspective: 1000px;
     transition: all 0.3s ease 0s;
     width: 18.7%;
    
@@ -49,6 +49,7 @@
     width: 100%;
     -webkit-animation: giro 1s 1;
     animation: giro 1s 1;
+    
   }
   
   .cardH  p {
@@ -61,23 +62,14 @@
     border-radius: 20px;
     box-sizing: border-box;
     color: white;
-    display: block;
+    display:in;
     font-size: 1.7em;
     height: 100%;
     padding: auto;
     position: absolute;
     text-align: center;
-    width: 100%;
+    width: 105%;
     
-  }
-  
-  .cardH .frontH strong {
-    background: #fff;
-    border-radius: 100%;
-    color: #222;
-    font-size: 1.8em;
-    line-height: 30px;
-    padding: 0 5px 3px 5px;
   }
   
   .cardH .backH {
@@ -87,19 +79,23 @@
   .cardH  .backH a {
     padding: auto;
     background: #333;
+    border-radius: 20%;
     color: #fff;
-    text-decoration: none;
-    border-radius: 2px;
-    border: rgb(246, 246, 247) solid 1px; 
-    font-size: 0.6em;
+    font-size: 0.7em;
     transition: all 0.2s ease 0s;
+    text-decoration: none;
+    
+        
   }
-  
+
+
   .cardH  .backH a:hover {
     background: #fff;
     color: #333;
-    text-shadow: 0 0 1px #333;
-        
+    border-radius: 30% solid;
+    text-shadow: 1 1 2px #333;
+    justify-content: space-evenly;
+                   
   }
   
   .cardBoxH:nth-child(1) .cardH .backH {
@@ -179,10 +175,7 @@
       height: 285px;
     }
   }
-  a {
-    text-decoration: none;
-       
-  }
+  
 
   #footer {
     background: #f7f8f9;
