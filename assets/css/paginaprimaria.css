@@ -21,17 +21,22 @@
     padding: 0.5em;
     margin: 0 0 5% 0;
     text-decoration: none;
-    
-  }
   
+   }
   
+   a{
+      text-decoration: none;
+  
+   }
+
   .cardBoxH {
     float: left;
     font-size: 1.2em;
-    margin: 1% 0 0 1%;
+    margin: 1% 5% 5% 1%;
     perspective: 1000px;
     transition: all 0.3s ease 0s;
     width: 18.7%;
+    
    
   }
   
