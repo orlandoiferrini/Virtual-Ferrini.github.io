@@ -32,27 +32,20 @@
     });
   }
 
-
-
-  /**
+   /**
    * Animation on scroll
    */
-  window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    })
-  });
-
-  /**
-   * Initiate Pure Counter 
-   */
-  new PureCounter();
-
-})()
-
+    window.addEventListener('load', () => {
+      AOS.init({
+        duration: 1000,
+        easing: 'ease-in-out',
+        once: true,
+        mirror: false
+      })
+    });
+  
+    })()
+  
 /*Barra de busqueda */
 
 function buscar_libros(){
@@ -63,9 +56,11 @@ function buscar_libros(){
   for (i = 0; i< x.length; i++){
     if (!x[i]. innerHTML.toLowerCase().includes(input)){
       x[i].style.display="none"
+            
     }
     else {
       x[i].style.display="list-item"
+      
     }
   }
 }

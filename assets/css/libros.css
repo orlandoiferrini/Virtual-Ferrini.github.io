@@ -7,44 +7,22 @@ body {
 header{
   background-color: #5E7F9D;
   padding: 15px 10px;
-  height: 500px;
-}
+  height: 400px;
+  }
 
 h1{
   font-family: sans-serif;
   margin: 0;
   text-align: center;
   align-items: center;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 50px 0px;
 }
-@media (max-width: 503px){
-  h1{
-    padding-right: 25px;
-    
-  }
-  .libreria{
-    padding-right: 40px ;
-  }
-  #barra-busqueda{
-    float: center;
-  }
 
-}
-.barra-de-busqueda{
-  float: right;
-  width: fit-content;
-  
-}
-#barra-busqueda{
-  float: center;
-  align-items: center;
-  width: auto;
-  
-}
+
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -67,6 +45,44 @@ h1{
 
 /**Barra de busqueda*/
 
+.wrapper{
+  position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    max-width: 550px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.wrapper .input {
+    width: 85%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.searchbtn {
+    background: #ffec00;
+    width: 10%;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.searchbtn .fas{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
 section{
   width: 50vw;
   height: 50vh;
@@ -84,10 +100,10 @@ input{
   outline: none;
   border: 5px solid #CCD1E4;
   font-weight: 600;
-  float: right;
+  float: center;
 }
 .filtro{
-  display: none;
+  display:flex;
 }
 /*Cards*/  
 .cards {
@@ -109,8 +125,9 @@ input{
   }
   
  .card__image {      
-    width: 100%;
-    height: auto;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
   }
   
 .card__overlay {
@@ -127,12 +144,7 @@ input{
 .card:hover .card__overlay {
     transform: translateY(0);
   }
-@media (max-width: 500px){
-  #buscador{
-    flex-direction: column;
-  }
 
-}
 
 .card__header {
     position: relative;
