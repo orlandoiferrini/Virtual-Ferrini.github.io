@@ -7,6 +7,7 @@
    margin: 0;
    padding: 0;
    background-color: white;
+  
 }
   
 .h4H2 {
@@ -14,13 +15,17 @@
   font-size: 15px;
 }
 
+a{
+  text-decoration: none;
+
+}
 .h1H2 {
    background: #5E7F9D;
    color: #fff;
    text-align: center;
    margin: 0 0 5% 0;
    padding: 0.5em;
-   margin: 0 0 5% 0;
+   
 }
   
  .cardBoxH2 {
@@ -48,9 +53,7 @@
     animation: giro 1s 1;
   }
   
-  .cardH2 p {
-    margin-bottom: 1.9em;
-  }
+ 
   
   .cardH2 .frontH2,
   .cardH2 .backH2 {
@@ -68,14 +71,7 @@
     
   }
   
-  .cardH2 .frontH2 strong {
-    background: #fff;
-    border-radius: 100%;
-    color: #222;
-    font-size: 1.5em;
-    line-height: 30px;
-    padding: 0 6px 3px 5px;
-  }
+  
   
   .cardH2 .backH2 {
     transform: rotateY(180deg);
@@ -86,10 +82,11 @@
     background: #333;
     color: #fff;
     text-decoration: none;
-    border-radius: 2px;
-    border: rgb(246, 246, 247) solid 1px; 
-    font-size: 0.7em;
+    border-radius: 20%;
+    border: rgb(246, 246, 247) solid 2px; 
+    font-size: 0.8em;
     transition: all 0.2s ease 0s;
+    text-decoration: none;
   }
   
   .cardH2 .backH2 a:hover {
@@ -170,13 +167,14 @@
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 400px) {
     .cardBoxH2 {
       margin-left: 2.8%;
       margin-top: 2%;
       width: 60%;
     }
-    .cardH2 {
+
+   .cardH2 {
       height: 285px;
     }
     .cardBoxH2:last-child {
@@ -186,66 +184,24 @@
   
   @media screen and (max-width: 900px) {
     .cardBoxH2 {
-      width: 94.5%;
+      width: 120%;
     }
     .cardH2 {
       height: 285px;
     }
   }
+
   a {
     text-decoration: none;
   }
+
   #footer {
     background: #f7f8f9;
-    color: #45505b;
+    color: #535b45;
     font-size: 14px;
     text-align: center;
-    padding: 30px 0;
-  }
-  
-  #footer h3 {
-    font-size: 36px;
-    font-weight: 700;
-    position: relative;
-    font-family: "Poppins", sans-serif;
-    padding: 0;
-    margin: 0 0 15px 0;
-  }
-  
-  #footer p {
-    font-size: 15;
-    font-style: italic;
-    padding: 0;
-    margin: 0 0 40px 0;
-  }
-  
-  #footer .social-links {
-    margin: 0 0 40px 0;
-  }
-  
-  #footer .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    background: #0563bb;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-  }
-  
-  #footer .social-links a:hover {
-    background: #0678e3;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  #footer .copyright {
-    margin: 0 0 5px 0;
+    clear: both;
+        
   }
   
   #footer .credits {

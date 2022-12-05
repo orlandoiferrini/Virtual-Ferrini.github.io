@@ -112,7 +112,7 @@ h6 {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
-  }
+    }
 }
 
 /*--------------------------------------------------------------
@@ -136,6 +136,7 @@ h6 {
     border-right: 1px solid #e6e9ec;
     left: -300px;
   }
+  
 }
 
 @media (min-width: 991px) {
@@ -274,12 +275,13 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #IconHero{
-  width: 100%;
-  height: auto;
+  width: -20px;
+  height: -60px;
+  
 }
 
 #hero {
-  width: 100%;
+  width: auto;
   height: 100vh;
   background-color: #5E7F9D;
   background-size: cover;
@@ -289,12 +291,11 @@ h6 {
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
-  }
+    }
 }
 
-#hero:before {
-  content: "";
 
+#hero:before {
   position: absolute;
   bottom: 0;
   top: 0;

@@ -51,9 +51,10 @@
     height: 300px;
     transform-style: preserve-3d;
     transition: transform 0.4s ease 0s;
-    width: 100%;
+    width: 110%;
     -webkit-animation: giro 1s 1;
     animation: giro 1s 1;
+    margin: 25px;
     
   }
   
@@ -73,7 +74,7 @@
     padding: auto;
     position: absolute;
     text-align: center;
-    width: 105%;
+    width: 110%;
     
   }
   
@@ -89,7 +90,7 @@
     font-size: 0.7em;
     transition: all 0.2s ease 0s;
     text-decoration: none;
-    
+    border: rgb(246, 246, 247) solid 2px; 
         
   }
 
@@ -160,12 +161,12 @@
   
   @media screen and (max-width: 767px) {
     .cardBoxH {
-      margin-left: 2.8%;
-      margin-top: 2%;
-      width: 60%;
+      margin-left: 2.7%;
+      margin-top: 1.8%;
+      width: 59%;
     }
     .cardH {
-      height: 285px;
+      height: 284px;
     }
     .cardBoxH:last-child {
       margin-bottom: 3%;
